@@ -3,8 +3,8 @@ var https = require('https');
 console.log('I did it!');
 
 var options = {
-  host: 'www.perdu.com',
-  path: '/'
+  host: 'stream-large-file.herokuapp.com',
+  path: '/give-me-stuff-now'
 };
 
 var callback = function(response) {
